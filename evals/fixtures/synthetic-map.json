@@ -1,0 +1,139 @@
+{
+  "schema": "interactive-mindmap/v1",
+  "rootId": "reading-plan-demo",
+  "edition": "Synthetic sample",
+  "kind": "Decision map",
+  "initialSelected": "scope",
+  "initialExpanded": [
+    "root",
+    "scope",
+    "method"
+  ],
+  "root": {
+    "id": "root",
+    "title": "个人阅读整理方案",
+    "status": "suggested",
+    "facts": [
+      [
+        "说明",
+        "完全虚构的演示内容"
+      ]
+    ],
+    "children": [
+      {
+        "id": "scope",
+        "title": "输入范围",
+        "status": "confirmed",
+        "facts": [
+          [
+            "说明",
+            "完全虚构的演示内容"
+          ]
+        ],
+        "children": [
+          {
+            "id": "books",
+            "title": "书籍条目",
+            "status": "confirmed",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "notes",
+            "title": "阅读笔记",
+            "status": "pending",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "left"
+      },
+      {
+        "id": "method",
+        "title": "分类方案",
+        "status": "suggested",
+        "facts": [
+          [
+            "说明",
+            "完全虚构的演示内容"
+          ]
+        ],
+        "children": [
+          {
+            "id": "topics",
+            "title": "按主题整理",
+            "status": "suggested",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "dedup",
+            "title": "去重方式",
+            "status": "pending",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "right"
+      },
+      {
+        "id": "output",
+        "title": "输出口径",
+        "status": "pending",
+        "facts": [
+          [
+            "说明",
+            "完全虚构的演示内容"
+          ]
+        ],
+        "children": [
+          {
+            "id": "digest",
+            "title": "摘要清单",
+            "status": "suggested",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "archive",
+            "title": "本地归档",
+            "status": "pending",
+            "facts": [
+              [
+                "说明",
+                "完全虚构的演示内容"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "right"
+      }
+    ]
+  }
+}
