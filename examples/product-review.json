@@ -1,0 +1,183 @@
+{
+  "schema": "interactive-mindmap/v1",
+  "rootId": "product-reading-demo",
+  "edition": "Synthetic product review",
+  "kind": "Product decisions",
+  "initialSelected": "export",
+  "initialExpanded": [
+    "root",
+    "goal",
+    "scope",
+    "decision",
+    "acceptance"
+  ],
+  "root": {
+    "id": "root",
+    "title": "个人阅读清单 · v0.1",
+    "status": "suggested",
+    "facts": [
+      [
+        "案例",
+        "全部内容为新写的虚构示例；状态来自案例设定。"
+      ]
+    ],
+    "children": [
+      {
+        "id": "goal",
+        "title": "用户与价值",
+        "status": "confirmed",
+        "facts": [
+          [
+            "目标",
+            "让读者能找回下一本想读的书。"
+          ]
+        ],
+        "children": [
+          {
+            "id": "reader",
+            "title": "目标用户",
+            "status": "confirmed",
+            "facts": [
+              [
+                "设定",
+                "只考虑个人读者，不扩展团队协作。"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "value",
+            "title": "核心价值",
+            "status": "suggested",
+            "facts": [
+              [
+                "假设",
+                "减少找书和重复整理的时间；尚无实测提升数据。"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "left"
+      },
+      {
+        "id": "scope",
+        "title": "本轮范围",
+        "status": "confirmed",
+        "facts": [
+          [
+            "边界",
+            "先完成有限本地清单。"
+          ]
+        ],
+        "children": [
+          {
+            "id": "list",
+            "title": "列表与主题筛选",
+            "status": "confirmed",
+            "facts": [
+              [
+                "范围",
+                "在案例设定中已纳入首版。"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "sync",
+            "title": "跨设备同步",
+            "status": "pending",
+            "facts": [
+              [
+                "缺项",
+                "没有账号、存储或同步方案证据。"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "left"
+      },
+      {
+        "id": "decision",
+        "title": "方案与待定问题",
+        "status": "suggested",
+        "facts": [
+          [
+            "审阅",
+            "推荐方案仍等待选择。"
+          ]
+        ],
+        "children": [
+          {
+            "id": "group",
+            "title": "按主题分组",
+            "status": "suggested",
+            "facts": [
+              [
+                "理由",
+                "便于读者按兴趣找回条目，是方案建议。"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "export",
+            "title": "导出格式",
+            "status": "pending",
+            "facts": [
+              [
+                "问题",
+                "需要 CSV、Markdown，还是本轮先不导出？"
+              ],
+              [
+                "影响",
+                "未确认前不把导出加入首版验收。"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "right"
+      },
+      {
+        "id": "acceptance",
+        "title": "验证与交付",
+        "status": "suggested",
+        "facts": [
+          [
+            "说明",
+            "这些是待执行检查，不是真实测试结果。"
+          ]
+        ],
+        "children": [
+          {
+            "id": "check",
+            "title": "按已选主题核对列表",
+            "status": "suggested",
+            "facts": [
+              [
+                "检查",
+                "有限样本中核对包含与排除条目。"
+              ]
+            ],
+            "children": []
+          },
+          {
+            "id": "receipt",
+            "title": "记录实际证据",
+            "status": "pending",
+            "facts": [
+              [
+                "待补",
+                "需要实现版本和真实运行结果，才能宣称完成。"
+              ]
+            ],
+            "children": []
+          }
+        ],
+        "side": "right"
+      }
+    ]
+  }
+}
